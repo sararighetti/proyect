@@ -1,0 +1,15 @@
+.form-container {
+    max-width:fit-content;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+input.ng-invalid.ng-touched{
+    border-color: red;
+
+}
+textarea.ng-invalid.ng-touched{
+   border-color: red;
+}
+

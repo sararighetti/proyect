@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  html, body {
+    
+    background: rgb(240, 243, 243);
+    margin: 20px;
+    color: #3e4144;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  
+  
+  
