@@ -36,11 +36,11 @@ onSubmit(form: NgForm){
   if (this.new){
     // save the note
     this.notesService.addNote(form.value);
-    this.router.navigateByUrl('/')
+    
   } else{
     this.notesService.update(this.noteId, form.value.title,form.value.body)
   }
- 
+  this.router.navigateByUrl('/')
 }
 cancel(){
   this.router.navigateByUrl('/')
